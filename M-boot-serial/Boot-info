@@ -1,0 +1,6 @@
+boot_params = 0x8778ECF0
+memstart    = 0x80000000
+memsize     = 0x08000000
+flashstart  = 0xBFC00000
+flashsize   = 0x00800000
+flashoffset = 0x00000000

@@ -1,0 +1,86 @@
+
+Hello U-Boot
+
+
+U-Boot 1.1.6 (Dec  9 2014 - 06:12:17)
+
+Board: MSTAR KAPPA (CPU Speed 600 MHz)
+DRAM:  128 X 0 MBytes
+U-Boot is running at DRAM 0x87610000
+Module: USB FAT FLASH SPI LOGO OSD ENV=SERIAL 
+Flash is detected (0x0C01, 0xC8, 0x40, 0x17)
+MDrv_SERFLASH_GetInfo()
+	u32AccessWidth = 1
+	u32TotalSize   = 8388608
+	u32SecNum      = 128
+	u32SecSize     = 65536
+hello MDrv_FP_Init8||||||||||||||||||||||||||||||||||||||||||
+SetDigital inside==========================================
+SetDigital inside==========================================
+SetDigital inside==========================================
+SetDigital inside==========================================
+DispUpdate inside==================================================
+In:    serial
+Out:   serial
+Err:   serial
+MSVC00B000100100208768TH0000000T
+[MDrv_PNL_Init][524] 
+MDrv_PNL_Init u32PnlRiuBaseAddr = BF200000
+[MDrv_PNL_Init][535] 
+MDrv_PNL_Init u32PMRiuBaseAddr = BF000000
+[MDrv_PNL_Init][545] 
+[MApi_PNL_Init][1118]
+[_SetPanelParams][469] 
+[MDrv_PNL_SetPanelType][553] 
+[MDrv_PNL_SetPanelType][575] 
+[_MDrv_PNL_Init_LPLL][295]pstPanelInitData->u16Width=720, pstPanelInitData->u16Height=576
+[_MDrv_PNL_Init_LPLL][297]u16HTotal=864,u16VTotal=625,pstPanelInitData->u16HTotal=864,pstPanelInitData->u16VTotal=625, u16DefaultVFreq=500
+[_MDrv_PNL_Init_Output_Dclk][340]pstPanelInitData->u16Width=720, pstPanelInitData->u16Height=576
+[_MDrv_PNL_Init_Output_Dclk][342]u16HTotal=864,u16VTotal=625,pstPanelInitData->u16HTotal=864,pstPanelInitData->u16VTotal=625, u16DefaultVFreq=500
+[XC,Version][0;36m 00442327
+ [mUTOPIA ASSERT: 0 /home/stb/PERFORCE/THEALE/utopia/project/kappa_nos_mips_mboot/../../mxlib/hal/kappa/xc/mhal_sc.c Hal_SC_set_ficlk 224
+DAC eTiming =3
+HDMITx eTiming =4
+HDMITx eTiming =4
+[Hal_VE_EnableDI][1049] bEnable = 0, bIsDNR2VE = 0
+u32ReadBuffVirAddr = A0000000, u32IntBuffVirAddr = A0100000, u32OutBuffVirAddr = A0730000
+verJPD_SetStatus >>>>>>>>>>> w:720,  h:576,  p:720
+
+[GOP3, PID 0, TID 0x-1][Driver Version]: 0089, BuildNum: 0002, ChangeList: 00524916
+ keypad_pressed is [0] 
+ ir_pressed is [0] 
+Hit any key to stop autoboot:  0 
+oad start -----
+[auto_boot][2805], No immediate SW RESET. 
+Start 75F2000 End 76BE000 
+UnProtect MIU block 0 : 0x75F2000 0x76BE000
+offset 0x8001C, size 0x31A4D8
+WARNING: it is better to set flash start addr aligned to 65536 !!!
+WARNING: it is better to set total length aligned to 65536 !!!
+Flash is detected (0x0C01, 0xC8, 0x40, 0x17)
+initialization done!
+Start read 31A4D8 data from serial device... 
+in=0x80B00000, in_size=0x31A4D8, out= 0x80000180, alloc_buf = 0x81000000 
+in=0x80B00000, in_size=0x31A4D8, out= 0x80000180, alloc_buf = 0x81000000 
+in_size=3253464 out_size=9244404 unpack_size=0 
+
+
+LZMA Decompression...CRC_result 5F7B2821 CRC_value 5F7B2821
+CRC check success !!
+ok
+
+Start 75F2000 End 76BE000 
+UnProtect MIU block 0 : 0x75F2000 0x76BE000
+disable interrupts
+## Starting application at 0x80000224 ...
+
+ABV_AS_GetSTBID entry
+
+cardversion=6
+
+
+ABV_AS_GetSTBID read nvm ok
+sid0000 err07
+
+GetRandom  ok!
+	
